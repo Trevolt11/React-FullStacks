@@ -22,7 +22,7 @@ const Statistics = ({ good, bad, neutral }) => {
   const average = total * (good * 0.010)
   const positive = good / total * 100
 
-  if (good == 0 && bad == 0 && neutral == 0) {
+  if (good === 0 && bad === 0 && neutral === 0) {
     return (
       <div>
         No feedback Given
